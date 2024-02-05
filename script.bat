@@ -40,4 +40,3 @@ git commit -m "%commit_message%" > "%fichier_log%" 2>&1
 
 REM Pousser les modifications vers le référentiel distant
 git push origin main >> "%fichier_log%" 2>&1
-pause

@@ -1,3 +1,7 @@
-[main 43e2cc7] e
- 1 file changed, 4 insertions(+)
- create mode 100644 git_log.txt
+[main 96a21df] can now copy a folder or a file
+ 4 files changed, 13 insertions(+), 8 deletions(-)
+ create mode 100644 test.bat
+ rename dossierdans.txt => world/dossier.txt (100%)
+ create mode 100644 world/dossier2.txt
+To https://github.com/gabyy671/testscript
+   d2e5756..96a21df  main -> main
