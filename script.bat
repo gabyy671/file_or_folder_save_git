@@ -1,4 +1,11 @@
 @echo off
+set pull=0
+set /p input=Do you want to git pull before the commit ?: 
+if /i "%input%" equ "o" (set pull=1)
+if /i "%input%" equ "y" (set pull=1)
+if /i "%input%" equ "O" (set pull=1)
+if /i "%input%" equ "Y" (set pull=1)
+
 
 REM Chemin du dossier ou du fichier source
 set "source=C:\Users\maxime\Documents\test\heeey\"
@@ -27,6 +34,10 @@ if %est_dossier%==true (
 
 ) else (
     copy /Y "%source%" "%dossier_destination%\world"
+)
+
+if pull equ 1 (
+    git pull
 )
 
 REM Ajouter le dossier ou le fichier au suivi de Git
