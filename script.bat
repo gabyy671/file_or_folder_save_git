@@ -1,8 +1,8 @@
 @echo off
 
 REM Chemin du fichier source
-set "fichier_source=C:\Users\maxime\Documents\test\hellow ord.txt"
-
+::set "fichier_source=C:\Users\maxime\Documents\test\hellow ord.txt"
+set "fichier_source=C:\Users\maxime\Documents\test\heeey"
 REM Dossier de destination (répertoire actuel)
 set "dossier_destination=%CD%"
 
