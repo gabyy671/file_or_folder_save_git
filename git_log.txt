@@ -1,5 +1,6 @@
-[main 5697026] deleted test.bat and pause
- 3 files changed, 8 insertions(+), 8 deletions(-)
- delete mode 100644 test.bat
+[main 6aaaca5] test
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/gabyy671/file_or_folder_save_git.git        
 To https://github.com/gabyy671/testscript
-   96a21df..5697026  main -> main
+   5697026..6aaaca5  main -> main
