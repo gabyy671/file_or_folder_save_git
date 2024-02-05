@@ -1,7 +1,7 @@
 @echo off
 
 REM Chemin du fichier source
-set "fichier_source=C:\Users\maxime\Documents\test\helloworld.txt"
+set "fichier_source=C:\Users\maxime\Documents\test\hellow orld.txt"
 
 REM Dossier de destination (répertoire actuel)
 set "dossier_destination=%CD%"

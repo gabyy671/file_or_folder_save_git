@@ -1,6 +1,4 @@
-[main (root-commit) d875157] initial commit 2
- 2 files changed, 40 insertions(+)
- create mode 100644 git_log.txt
- create mode 100644 script.bat
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/gabyy671/testscript'
+[main a936815] initial commit 3
+ 2 files changed, 5 insertions(+), 11 deletions(-)
+To https://github.com/gabyy671/testscript
+ * [new branch]      main -> main
