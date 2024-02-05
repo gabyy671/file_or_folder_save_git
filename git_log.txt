@@ -1,2 +1,8 @@
-Aborting commit due to empty commit message.
-Everything up-to-date
+[main dc111cb] added pull script
+ 2 files changed, 17 insertions(+)
+ rename script.bat => commit.bat (100%)
+ create mode 100644 pull.bat
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/gabyy671/file_or_folder_save_git.git        
+To https://github.com/gabyy671/testscript
+   6ce2e03..dc111cb  main -> main

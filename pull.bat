@@ -2,7 +2,8 @@
 
 REM Nom du dossier source à copier
 set "dossier_destination=C:\Users\maxime\AppData\Roaming\.minecraft\saves"
-
+set "fichier_log=%CD%\git_pull_log.txt"
+git pull > "%fichier_log%" 2>&1
 REM Dossier de destination (répertoire du script)
 set "source=%CD%\world"
 

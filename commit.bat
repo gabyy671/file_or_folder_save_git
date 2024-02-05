@@ -1,11 +1,4 @@
 @echo off
-set pull=0
-set /p input=Do you want to git pull before the commit ?: 
-if /i "%input%" equ "o" (set pull=1)
-if /i "%input%" equ "y" (set pull=1)
-if /i "%input%" equ "O" (set pull=1)
-if /i "%input%" equ "Y" (set pull=1)
-
 
 REM Chemin du dossier ou du fichier source
 set "source=C:\Users\maxime\Documents\test\heeey\"
@@ -25,19 +18,14 @@ REM Dossier de destination (répertoire actuel)
 set "dossier_destination=%CD%"
 
 REM Nom du fichier journal (log)
-set "fichier_log=%dossier_destination%\git_log.txt"
+set "fichier_log=%dossier_destination%\git_commit_log.txt"
 
 REM Copier le dossier ou le fichier dans le dossier spécifié
 if %est_dossier%==true (
     xcopy /Y /E "%source%" "%dossier_destination%\world"
 
-
 ) else (
     copy /Y "%source%" "%dossier_destination%\world"
-)
-
-if pull equ 1 (
-    git pull
 )
 
 REM Ajouter le dossier ou le fichier au suivi de Git
