@@ -1,7 +1,5 @@
-[main 96a21df] can now copy a folder or a file
- 4 files changed, 13 insertions(+), 8 deletions(-)
- create mode 100644 test.bat
- rename dossierdans.txt => world/dossier.txt (100%)
- create mode 100644 world/dossier2.txt
+[main 5697026] deleted test.bat and pause
+ 3 files changed, 8 insertions(+), 8 deletions(-)
+ delete mode 100644 test.bat
 To https://github.com/gabyy671/testscript
-   d2e5756..96a21df  main -> main
+   96a21df..5697026  main -> main
