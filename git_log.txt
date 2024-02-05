@@ -1,6 +1,11 @@
-[main 6aaaca5] test
- 1 file changed, 4 insertions(+), 6 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/gabyy671/file_or_folder_save_git.git        
+[main e6fa809] added image
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+ create mode 100644 image/line.png
 To https://github.com/gabyy671/testscript
-   5697026..6aaaca5  main -> main
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/gabyy671/testscript'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
