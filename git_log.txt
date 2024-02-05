@@ -1,0 +1,4 @@
+[main 309e4b9] dossier
+ 3 files changed, 18 insertions(+), 16 deletions(-)
+ delete mode 100644 git_log.txt
+ delete mode 100644 hellow ord.txt
