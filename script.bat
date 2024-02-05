@@ -1,13 +1,12 @@
 @echo off
 
-REM Chemin du fichier source
-set "fichier_source=C:\Users\maxime\Documents\test\heeey"
+REM Chemin du fichier source (dossier)
+set "dossier_source=C:\Users\maxime\Documents\test\heeey"
 
-REM Vérifier si le chemin spécifié est un fichier ou un dossier
-if exist "%fichier_source%\*" (
-    set "est_dossier=true"
-) else (
-    set "est_dossier=false"
+REM Vérifier si le chemin spécifié est un dossier
+if not exist "%dossier_source%\*" (
+    echo Le chemin spécifié n'est pas un dossier valide.
+    exit /B 1
 )
 
 REM Dossier de destination (répertoire actuel)
@@ -16,17 +15,13 @@ set "dossier_destination=%CD%"
 REM Nom du fichier journal (log)
 set "fichier_log=%dossier_destination%\git_log.txt"
 
-REM Copier le fichier ou le dossier dans le dossier spécifié (en écrasant s'il existe déjà)
-if %est_dossier%==true (
-    xcopy /Y /E "%fichier_source%" "%dossier_destination%"
-) else (
-    copy /Y "%fichier_source%" "%dossier_destination%"
-)
+REM Copier le dossier et son contenu dans le dossier spécifié
+xcopy /Y /E "%dossier_source%" "%dossier_destination%"
 
 REM Aller dans le dossier de destination
 cd /D "%dossier_destination%" || exit /B 1
 
-REM Ajouter le fichier ou le dossier au suivi de Git
+REM Ajouter le dossier et son contenu au suivi de Git
 git add .
 
 REM Demander le message de commit à l'utilisateur
