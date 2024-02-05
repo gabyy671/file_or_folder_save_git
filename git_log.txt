@@ -1,4 +1,4 @@
-[main a936815] initial commit 3
- 2 files changed, 5 insertions(+), 11 deletions(-)
+[main 3500bfb] fichier texte test
+ 2 files changed, 5 insertions(+), 7 deletions(-)
 To https://github.com/gabyy671/testscript
- * [new branch]      main -> main
+   a936815..3500bfb  main -> main
